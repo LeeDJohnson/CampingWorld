@@ -1,0 +1,41 @@
+table {
+  width: 90%;
+}
+
+th.mat-sort-header-sorted {
+  color: black;
+}
+
+.filter {
+  text-align: center;
+}
+
+.filter-card {
+  display: inline-flex;
+  align-items: center;
+}
+
+.filter-instructions-text {
+  margin: 20px;
+  display: block;
+}
+
+.mat-form-field {
+  padding: 20px;
+  text-align: center;
+}
+
+.table {
+  display: block;
+}
+
+@media only screen and (max-width: 510px) {
+  h1 {
+    font-size: 40px;
+    line-height: 46px;
+  }
+
+  .filter-card {
+    display: unset;
+  }
+}
